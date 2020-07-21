@@ -110,7 +110,7 @@ public class NewApplication extends javax.swing.JFrame {
      
       ((SandboxOpenApi) api).getSandboxContext().setCurrencyBalance(Balance, "");
       var port= api.getPortfolioContext().getPortfolioCurrencies("").join();
-      var i = port.currencies.get(1).balance;
+      var i = port.currencies.get(1).balance;  
        jLabel1.setText(i.toString());
     }//GEN-LAST:event_jButton1ActionPerformed
 
